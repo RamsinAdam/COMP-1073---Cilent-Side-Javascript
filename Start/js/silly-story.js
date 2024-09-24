@@ -19,6 +19,10 @@ Donald Trump, Jackie Chan, Santa Claus
 Area 51, Death Valley, Aruba
 spontaneously combusted, rapidly sublimated, evaporated instantly
 */
+const insertX = ["Donald Trump", "Jackie Chan", "Santa Claus"];
+const insertY = ["Area 51", "Death Valley", "Aruba"];
+const insertZ = ["Spontaneously Combusted", "Rapidly Sublimated", "Evaporated Instantly"];
+
 
 // FUNCTIONS
 
