@@ -39,6 +39,7 @@ function result() {
 	//  STEP 8: Use the randomValueFromArray() function to generate a value for each of three new variables - xItem, yItem, and zItem
 	// Call up the function and for each variable, pass it the array from which to grab a random string - for example if insertW was an array of strings, I would type:
 	// var wItem = randomValueFromArray(insertW); 
+      
 	  var xItem =randomValueFromArray(insertX);
 	  var yItem =randomValueFromArray(insertY);
 	  var zItem =randomValueFromArray(insertZ);
@@ -64,6 +65,8 @@ function result() {
 		const weightInPounds = 300;
 		const weightInKg =  (weightInPounds * 0.453592)
 		// STEP 11b: Replace the string 300 pounds with the updated weight in kg
+           newStory = newStory.replace(/300 pounds/g, weightInKg + "kilograms");
+		   newStory = newStory.replace(/94 Fahrenheit/g,((94 - 32) * 5/9).toFixed(2) + "Celclius");
 
 		// STEP 12a: Create a variable called temp and convert °F to °C ... the formula for conversion is °C = (°F - 32) x 5/9
 
