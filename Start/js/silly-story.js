@@ -69,6 +69,8 @@ function result() {
 		   newStory = newStory.replace(/94 Fahrenheit/g,((94 - 32) * 5/9).toFixed(2) + "Celclius");
 
 		// STEP 12a: Create a variable called temp and convert °F to °C ... the formula for conversion is °C = (°F - 32) x 5/9
+		 const tempInFahrenheit = 94;
+         const tempInCelsius = ((tempInFahrenheit - 32) * 5/9).toFixed(2);
 
 		// STEP 12b: Replace the string '94 fahrenheit' with the updated temperature in °C
 
