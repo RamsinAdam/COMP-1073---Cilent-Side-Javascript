@@ -54,9 +54,12 @@ function result() {
 	newStory += newStory.replace(':insertx:', xItem);
 	newStory += newStory.replace(':inserty:', yItem);
 	newStory += newStory.replace(':insertx:', zItem);
+
+
+
+
 	/* STEP 10: If the user has typed a name in the customName field, replace the name 'Bob' in the story with whatever they typed */
 	if(customName.value != '') {
-
 		newStory = newStory.replace(/Bob/g, customName.value);
 	}
 	/* STEP 11: If the metric radio button has been checked, we need to convert the temperature and mass numbers in the story */
@@ -73,9 +76,13 @@ function result() {
          const tempInCelsius = ((tempInFahrenheit - 32) * 5/9).toFixed(2);
 
 		// STEP 12b: Replace the string '94 fahrenheit' with the updated temperature in °C
+		
+		newStory = newStory.replace(/94 Fahrenheit/g, tempInCelsius + " Celsius");
+
 
   }
 	/* STEP 13: Make the textContent property of the story variable (which references the paragraph) equal to newStory */
+	  
 	   story.textContent = newStory;
 
 	// The following line makes the paragraph visible
@@ -83,7 +90,10 @@ function result() {
 }
 
 // EVENT LISTENERS
-/* STEP 5: Add a click event listener to the randomize variable so that when the button it represents is clicked, the result() function is run. */
+/* STEP 5: Add a click event listener to the randomize variable so that when the button it represents is clicked, the result()
+ function is run. */
+
+ randomize.addEventListener('click', result);
 
 
 // This lab based on the excellent assessment challenge at https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Silly_story_generator
