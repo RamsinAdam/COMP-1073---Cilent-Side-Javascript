@@ -61,6 +61,8 @@ function result() {
 	/* STEP 11: If the metric radio button has been checked, we need to convert the temperature and mass numbers in the story */
   if(document.getElementById("metric").checked) {
 		// STEP 11a: Create a variable called weight and convert the 300lbs to kgs (1lb = 0.453592kg)
+		const weightInPounds = 300;
+		const weightInKg =  (weightInPounds * 0.453592)
 		// STEP 11b: Replace the string 300 pounds with the updated weight in kg
 
 		// STEP 12a: Create a variable called temp and convert °F to °C ... the formula for conversion is °C = (°F - 32) x 5/9
