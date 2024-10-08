@@ -17,3 +17,6 @@ let selectedTime = '';
 
 function cycleOptions(id, optionsArray, displayElementId) {
   let index = 0;  // Keeps track of the current option
+  // Add an event listener to the button to change the displayed option on click
+
+  document.getElementById(id).addEventListener('click', function() {
