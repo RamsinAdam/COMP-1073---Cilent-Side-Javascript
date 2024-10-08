@@ -20,3 +20,9 @@ function cycleOptions(id, optionsArray, displayElementId) {
   // Add an event listener to the button to change the displayed option on click
 
   document.getElementById(id).addEventListener('click', function() {
+    // Cycle through options in the array
+    index = (index + 1) % optionsArray.length;  
+    // Display the selected option
+    document.getElementById(displayElementId).innerText = optionsArray[index];  
+    // Update the selection variable
+    updateSelection(id, optionsArray[index]);  
