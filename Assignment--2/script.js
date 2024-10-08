@@ -11,3 +11,9 @@ let selectedAction = '';
 let selectedPlace = '';
 let selectedObject = '';
 let selectedTime = '';
+// Function to cycle through the options for each button
+// Takes in the button's id, the array of options to cycle through, 
+// and the id of the element to display the selected option
+
+function cycleOptions(id, optionsArray, displayElementId) {
+  let index = 0;  // Keeps track of the current option
