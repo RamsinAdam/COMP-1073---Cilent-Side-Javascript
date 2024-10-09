@@ -2,6 +2,15 @@ body {
     font-family: Arial, sans-serif; /* Font used for the entire page */
     background-color: #f0f8ff; /* Light blue background color */
     text-align: center; /* Centers all text content */
+  /* Main container styling: sets width, background color, and shadow */
+  .container {
+    margin: 0 auto; /* Centers the container */
+    width: 50%; /* Container width is 50% of the viewport */
+    padding: 20px; /* Adds padding inside the container */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounds the corners of the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a shadow around the container */
+  }
     font-size: 20px; /* Larger font size for the final story */
   }
   
