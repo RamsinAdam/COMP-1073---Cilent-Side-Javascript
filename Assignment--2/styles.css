@@ -15,6 +15,12 @@ body {
   h1 {
     color: #ff4500; /* Bright orange color for the heading */
   }
+  /* Styling the buttons section: arranges buttons in a column */
+  .buttons {
+    display: flex; /* Flexbox layout for the buttons */
+    flex-direction: column; /* Stack the buttons vertically */
+    gap: 10px; /* Adds space between each button */
+  }
     font-size: 20px; /* Larger font size for the final story */
   }
   
