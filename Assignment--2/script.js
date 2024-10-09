@@ -26,3 +26,6 @@ function cycleOptions(id, optionsArray, displayElementId) {
     document.getElementById(displayElementId).innerText = optionsArray[index];  
     // Update the selection variable
     updateSelection(id, optionsArray[index]);  
+// Function to update the user's selection based on which button was clicked
+function updateSelection(buttonId, choice) {
+  switch (buttonId) {
