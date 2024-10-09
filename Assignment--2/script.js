@@ -51,3 +51,5 @@ function updateSelection(buttonId, choice) {
       break;
   }
 }
+// Function to combine all the selected parts into a full story
+function createStory() {
