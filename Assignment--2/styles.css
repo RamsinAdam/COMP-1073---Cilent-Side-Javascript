@@ -45,6 +45,11 @@ body {
     font-size: 18px; /* Sets the font size */
     margin: 0; /* Removes default margin */
   }
+  /* Styling for the story output section */
+  #story {
+    margin-top: 20px; /* Adds space above the story output */
+    font-weight: bold; /* Makes the story text bold */
+    color: #008b8b; /* Dark cyan color for the story text */
     font-size: 20px; /* Larger font size for the final story */
   }
   
