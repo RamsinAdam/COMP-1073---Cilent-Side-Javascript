@@ -21,6 +21,12 @@ body {
     flex-direction: column; /* Stack the buttons vertically */
     gap: 10px; /* Adds space between each button */
   }
+  /* Styling for the sentences part section (button and its text) */
+  .choice {
+    display: flex; /* Flexbox layout for button and selected option */
+    justify-content: space-between; /* Button on the left, selected text on the right */
+    align-items: center; /* Aligns the button and text vertically */
+  }
     font-size: 20px; /* Larger font size for the final story */
   }
   
