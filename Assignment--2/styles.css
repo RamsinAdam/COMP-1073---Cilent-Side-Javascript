@@ -11,6 +11,10 @@ body {
     border-radius: 8px; /* Rounds the corners of the container */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a shadow around the container */
   }
+  /* Styling for the main heading */
+  h1 {
+    color: #ff4500; /* Bright orange color for the heading */
+  }
     font-size: 20px; /* Larger font size for the final story */
   }
   
