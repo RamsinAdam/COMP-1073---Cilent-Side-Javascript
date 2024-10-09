@@ -66,3 +66,9 @@ function createStory() {
 }
 // Event listeners and functionality are set up once the window has fully loaded
 window.onload = function() {
+  //each button should be initialized with the options array and display element
+  cycleOptions('btn1', characters, 'choice1');
+  cycleOptions('btn2', actions, 'choice2');
+  cycleOptions('btn3', places, 'choice3');
+  cycleOptions('btn4', objects, 'choice4');
+  cycleOptions('btn5', times, 'choice5');
