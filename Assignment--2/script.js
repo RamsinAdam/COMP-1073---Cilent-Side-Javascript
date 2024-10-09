@@ -64,3 +64,5 @@ function createStory() {
     document.getElementById('story').innerText = "Please make sure all parts of the story are selected!";
   }
 }
+// Event listeners and functionality are set up once the window has fully loaded
+window.onload = function() {
