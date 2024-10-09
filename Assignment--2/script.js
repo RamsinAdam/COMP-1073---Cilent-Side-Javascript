@@ -29,3 +29,25 @@ function cycleOptions(id, optionsArray, displayElementId) {
 // Function to update the user's selection based on which button was clicked
 function updateSelection(buttonId, choice) {
   switch (buttonId) {
+     // Update character selection
+    case 'btn1':  
+      selectedCharacter = choice;
+      break;
+      // Update action selection
+    case 'btn2':  
+      selectedAction = choice;
+      break;
+      // Update place selection
+    case 'btn3':  
+      selectedPlace = choice;
+      break;
+      // Update object selection
+    case 'btn4': 
+      selectedObject = choice;
+      break;
+      // Update time selection
+    case 'btn5':  
+      selectedTime = choice;
+      break;
+  }
+}
