@@ -55,3 +55,5 @@ function updateSelection(buttonId, choice) {
 function createStory() {
   // Ensure that all parts of the sentence have been selected
   if (selectedCharacter && selectedAction && selectedPlace && selectedObject && selectedTime) {
+    // Create the story using the selected parts
+    const story = `${selectedCharacter} ${selectedAction} ${selectedPlace} ${selectedObject} ${selectedTime}.`;
