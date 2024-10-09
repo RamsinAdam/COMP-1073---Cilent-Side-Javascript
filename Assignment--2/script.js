@@ -60,3 +60,7 @@ function createStory() {
     // Display the final story in the designated paragraph
     document.getElementById('story').innerText = story;
   } else {
+    // If not all parts are selected, show a reminder to the user
+    document.getElementById('story').innerText = "Please make sure all parts of the story are selected!";
+  }
+}
