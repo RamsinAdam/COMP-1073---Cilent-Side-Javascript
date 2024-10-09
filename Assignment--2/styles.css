@@ -40,6 +40,11 @@ body {
   button:hover {
     background-color: #ff6347; /* Lighter shade of orange when hovered */
   }
+  /* Styling for paragraph elements (used for the selected options) */
+  p {
+    font-size: 18px; /* Sets the font size */
+    margin: 0; /* Removes default margin */
+  }
     font-size: 20px; /* Larger font size for the final story */
   }
   
