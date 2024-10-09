@@ -53,3 +53,5 @@ function updateSelection(buttonId, choice) {
 }
 // Function to combine all the selected parts into a full story
 function createStory() {
+  // Ensure that all parts of the sentence have been selected
+  if (selectedCharacter && selectedAction && selectedPlace && selectedObject && selectedTime) {
