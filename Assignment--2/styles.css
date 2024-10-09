@@ -27,6 +27,15 @@ body {
     justify-content: space-between; /* Button on the left, selected text on the right */
     align-items: center; /* Aligns the button and text vertically */
   }
+  /* General styling for buttons */
+  button {
+    background-color: #ff4500; /* Bright orange background color */
+    color: white; /* White text */
+    border: none; /* Removes any default border */
+    padding: 10px 20px; /* Adds padding inside the button */
+    font-size: 16px; /* Font size for the button text */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    border-radius: 5px; /* Rounds the button corners */
     font-size: 20px; /* Larger font size for the final story */
   }
   
