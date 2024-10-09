@@ -72,3 +72,6 @@ window.onload = function() {
   cycleOptions('btn3', places, 'choice3');
   cycleOptions('btn4', objects, 'choice4');
   cycleOptions('btn5', times, 'choice5');
+  // Add event listener to the "Show My Story" button to display the final story
+  document.getElementById('showStory').addEventListener('click', createStory);
+};
