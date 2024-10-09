@@ -57,3 +57,6 @@ function createStory() {
   if (selectedCharacter && selectedAction && selectedPlace && selectedObject && selectedTime) {
     // Create the story using the selected parts
     const story = `${selectedCharacter} ${selectedAction} ${selectedPlace} ${selectedObject} ${selectedTime}.`;
+    // Display the final story in the designated paragraph
+    document.getElementById('story').innerText = story;
+  } else {
